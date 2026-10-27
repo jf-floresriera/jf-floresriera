@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="26" viewBox="0 0 1280 26" role="img" aria-label="separador"><title>separador</title><style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><defs><linearGradient id="d" x1="0" x2="1"><stop offset="0" stop-color="#3fb950" stop-opacity="0"/><stop offset=".5" stop-color="#3fb950"/><stop offset="1" stop-color="#39d0d8" stop-opacity="0"/></linearGradient>
+<radialGradient id="p"><stop offset="0" stop-color="#fff"/><stop offset=".4" stop-color="#39d0d8"/><stop offset="1" stop-color="#39d0d8" stop-opacity="0"/></radialGradient></defs>
+<rect x="0" y="12" width="1280" height="2" fill="url(#d)" opacity=".7"/>
+<circle cy="13" r="9" fill="url(#p)"><animate attributeName="cx" values="-20;1300" dur="5s" repeatCount="indefinite"/></circle>
+<circle cy="13" r="6" fill="url(#p)" opacity=".7"><animate attributeName="cx" values="1300;-20" dur="7s" repeatCount="indefinite"/></circle></svg>

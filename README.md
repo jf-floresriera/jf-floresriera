@@ -1,131 +1,218 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Jesús%20Enrique%20Flores-Riera&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Agronomic%20Engineer%20%7C%20Geomatics%20%26%20AI%20Researcher&descSize=18&descAlignY=58" width="100%"/>
+<img src="assets/header.svg" width="100%" alt="Jesús Enrique Flores-Riera — Ingeniero Agrónomo · Geomática · IA"/>
 
-<img src="https://readme-typing-svg.demolab.com/?lines=Computer+Vision+for+Plant+Pathology;Remote+Sensing+%7C+Sentinel-2+%7C+GEE;YOLOv11+%7C+CNNs+%7C+Gaussian+Process+Regression;R+Shiny+%7C+Flask+%7C+FAIR+Datasets+on+Hugging+Face&font=Fira%20Code&center=true&width=600&height=45&color=2E8B57&vCenter=true&size=22&pause=1200"/>
+<img src="assets/typing.svg" width="90%" alt="Visión por computador · Teledetección · Apps offline-first · LLMs on-device · Plugins QGIS · Epidemiología"/>
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/flores-riera/)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/jf-floresriera)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jf-floresriera)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jesusenriqueflores36@gmail.com)
-[![Location](https://img.shields.io/badge/Bogot%C3%A1%2C%20Colombia-2E8B57?style=for-the-badge&logo=googlemaps&logoColor=white)]()
+<a href="https://www.linkedin.com/in/flores-riera/"><img src="assets/badges/linkedin.svg" height="32" alt="LinkedIn"/></a>
+<a href="https://huggingface.co/jf-floresriera"><img src="assets/badges/huggingface.svg" height="32" alt="Hugging Face"/></a>
+<a href="https://orcid.org/0000-0002-8167-4212"><img src="assets/badges/orcid.svg" height="32" alt="ORCID"/></a>
+<a href="mailto:jesusenriqueflores36@gmail.com"><img src="assets/badges/gmail.svg" height="32" alt="Gmail"/></a>
+<a href="mailto:jfloresr@unal.edu.co"><img src="assets/badges/unal.svg" height="32" alt="Correo UNAL"/></a>
+<img src="assets/badges/location.svg" height="32" alt="Bogotá, Colombia"/>
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 👋 Sobre mí
 
-Ingeniero Agrónomo de la **Universidad Nacional de Colombia**, con enfoque avanzado en **Geomática**, **Inteligencia Artificial** y **Sistemas Agrícolas Sostenibles**. Me especializo en cerrar la brecha entre la agronomía de campo y la ciencia de datos, particularmente en **Visión por Computador** aplicada a fitopatología y en el desarrollo de herramientas web de soporte a la decisión.
+<img src="assets/orbit.svg" align="right" width="320" alt="Órbita de tecnologías: Python, R, Dart, Julia, PyTorch, YOLO, Hugging Face, QGIS, Earth Engine, FastAPI, Flutter, Docker…"/>
 
-- 🔬 Actualmente investigo modelos epidemiológicos de la mancha de asfalto (*Phyllachora maydis*) en maíz, en el marco de la alianza **UNAL – Purdue University**.
-- 🌱 Experiencia desplegando modelos de *deep learning* (YOLO, CNNs) para cuantificación de enfermedades en tiempo real.
-- 🛰️ Trabajo con teledetección (Sentinel-2), reconstrucción de variables biofísicas y modelado espaciotemporal.
-- 🐍 Stack principal: **Python, R, Julia, JavaScript (GEE/Leaflet)**.
-- 📚 Actualmente en la **Maestría en Geomática** (UNAL), enfocado en el desarrollo e implementación de tecnologías geoespaciales.
+Ingeniero Agrónomo de la **Universidad Nacional de Colombia** y estudiante de la **Maestría en Geomática**. Trabajo en el punto donde se cruzan la agronomía de campo, la teledetección y la inteligencia artificial: tomo datos del lote —fotos, drones, satélites, estaciones climáticas— y los convierto en herramientas que ayudan a decidir.
 
----
+- 🌽 **Project Researcher** en la alianza **UNAL – Purdue University**: plataforma para monitorear y predecir enfermedades foliares del maíz (mancha de asfalto, *Phyllachora maydis*).
+- 🤖 Entreno **modelos de lenguaje pequeños** que corren dentro del teléfono para dar recomendaciones fitosanitarias en español e inglés.
+- 🛰️ Construyo **plugins de QGIS** para fenología con procesos gaussianos, predicción espacial con GPBoost e interferometría radar (InSAR).
+- 🔬 Visión por computador para **fitopatología** (YOLOv11, CNNs) y fenotipado con **UAV multiespectral**.
+- 📱 Desarrollo apps **Flutter** y **Android nativo** pensadas para funcionar sin conexión en campo.
+
+<br clear="right"/>
+
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 🧪 Proyectos destacados
 
-### 🩺 PowderyVision — Sistema de fitopatología asistido por IA
-Pipeline de inferencia en cuatro pasos: (i) captura móvil de imágenes, (ii) clasificación de hospedero/enfermedad (**YOLOv11m-cls**), (iii) localización foliar (**YOLOv11n-seg**) y (iv) cuantificación del área de la lesión. Frontend multilingüe (HTML5, CSS3, JS) optimizado para smartphones de gama media, pensado para decisiones de campo en tiempo real.
+<div align="center">
 
-### 🛰️ Biophysical Data Reconstruction
-Aplicación de **Gaussian Process Regression (GPR)** para reconstruir y limpiar variables biofísicas a partir de imágenes satelitales **Sentinel-2**, enfocado en la fenología del maíz industrial en la región del Meta, Colombia.
+<img src="assets/projects/purdue-maize.svg" width="49%" alt="Purdue Maize Platform (privado)"/>
+<img src="assets/projects/maize-llm.svg" width="49%" alt="LLM fitosanitario on-device (privado)"/>
 
-### 🤖 Big Data & Robótica de campo
-Pipelines **PSPNet/ResNet34** para procesar más de 140,000 imágenes de campo capturadas por robots **Solinftec** (alianza con Purdue University), alcanzando 99% de precisión.
+<img src="assets/projects/insar.svg" width="49%" alt="InSAR Toolbox for QGIS (privado)"/>
+<a href="https://github.com/jf-floresriera/GEE_GPR_Phenology"><img src="assets/projects/gee-gpr.svg" width="49%" alt="GEE GPR Phenology"/></a>
 
----
+<a href="https://github.com/jf-floresriera/pea_drone"><img src="assets/projects/pea-drone.svg" width="49%" alt="pea_drone"/></a>
+<a href="https://github.com/jf-floresriera/powderyvision7"><img src="assets/projects/powderyvision.svg" width="49%" alt="PowderyVision"/></a>
 
-## 💼 Experiencia profesional
+<a href="https://github.com/jf-floresriera/GPBoost-Spatial-Predictor"><img src="assets/projects/gpboost.svg" width="49%" alt="GPBoost Spatial Predictor"/></a>
+<a href="https://github.com/jf-floresriera/hevea-agroclima-salb-clf"><img src="assets/projects/hevea.svg" width="49%" alt="Hevea agroclima SALB/CLF"/></a>
 
-| Rol | Institución | Periodo |
-|---|---|---|
-| Project Researcher — UNAL–Purdue Partnership | Bogotá, Colombia | Ene 2026 – Actualidad |
-| Research Intern — Agrocomputation & Epidemiological Analysis Lab | Fac. Ciencias Agrarias, UNAL | Jun 2025 – Ene 2026 |
-| Teaching Assistant — Soil Science & Integrated Disease Management | UNAL | Bogotá, Colombia |
+<a href="https://github.com/jf-floresriera/SAR-and-Optical-Multisensor-Interpretation-Guide"><img src="assets/projects/sar-guide.svg" width="49%" alt="SAR multisensor"/></a>
+<img src="assets/projects/voting.svg" width="49%" alt="Votación electrónica (privado)"/>
 
-**Logros clave:**
-- Desarrollo de **PowderyVision** (Flask) con CNNs (ResNet101, ConvNeXt, Xception) y YOLOv11 (cls/seg) — 99% de precisión.
-- Integración de **XGBoost** para análisis espectral de calidad (98% de precisión) y seguimiento de huella de carbono con **CodeCarbon**.
-- Construcción de aplicaciones **R Shiny** y **Gradio** para monitoreo de campo; publicación de datasets **FAIR** en Hugging Face.
+<a href="https://github.com/jf-floresriera/Reto7"><img src="assets/projects/android.svg" width="49%" alt="Apps Android y Flutter"/></a>
+<a href="https://github.com/jf-floresriera/zenodo-resume-downloader"><img src="assets/projects/zenodo.svg" width="49%" alt="Zenodo downloader"/></a>
 
----
+<sub>🔒 Los proyectos privados se muestran sin código ni datos: solo el alcance técnico.</sub>
+
+</div>
+
+<details>
+<summary><b>📂 Más repositorios públicos</b></summary>
+<br/>
+
+| Área | Repositorios |
+|---|---|
+| 🌽 Fenología y GPR | [proyecto_final_programacion_sig](https://github.com/jf-floresriera/proyecto_final_programacion_sig) · [sentinel2-maize-gaussian-processes](https://github.com/jf-floresriera/sentinel2-maize-gaussian-processes) · [project_remote_sensing](https://github.com/jf-floresriera/project_remote_sensing) |
+| 🛰️ Radar | [umbra_SAR_data_explore](https://github.com/jf-floresriera/umbra_SAR_data_explore) · [SAR-and-Optical-Multisensor-Interpretation-Guide](https://github.com/jf-floresriera/SAR-and-Optical-Multisensor-Interpretation-Guide) |
+| 🤖 IA agropecuaria | [Proyecto final IA y producción agropecuaria](https://github.com/jf-floresriera/Inteligencia-artificial-y-modelos-de-produccion-agropecuaria_-PROYECTO-FINAL) · [Powdery_Mildew_App_Xception_vFinal](https://github.com/jf-floresriera/Powdery_Mildew_App_Xception_vFinal) · [gulupascaner](https://github.com/jf-floresriera/gulupascaner) |
+| 🗺️ Programación SIG (Python · R · Julia) | [taller1-sig](https://github.com/jf-floresriera/taller1-sig) · [fundamentos_raster-](https://github.com/jf-floresriera/fundamentos_raster-) · [operaciones_raster](https://github.com/jf-floresriera/operaciones_raster) · [replicacion_multidimensional](https://github.com/jf-floresriera/replicacion_multidimensional) · [tarea_Vectorizacion_DataFrames](https://github.com/jf-floresriera/tarea_Vectorizacion_DataFrames) · [tarea-io-limpieza-datos](https://github.com/jf-floresriera/tarea-io-limpieza-datos) · [Arcpy_retos_aprendizaje_autonomo](https://github.com/jf-floresriera/Arcpy_retos_aprendizaje_autonomo) · [Personalizar_QGIS_Python](https://github.com/jf-floresriera/Personalizar_QGIS_Python) |
+| 📱 Móviles | [227_APP](https://github.com/jf-floresriera/227_APP) · [flutter_demo](https://github.com/jf-floresriera/flutter_demo) · [app_dadm_personalizado](https://github.com/jf-floresriera/app_dadm_personalizado) · [reto_0](https://github.com/jf-floresriera/reto_0) · [Reto_3](https://github.com/jf-floresriera/Reto_3) · [Reto_4](https://github.com/jf-floresriera/Reto_4) · [RETO_5](https://github.com/jf-floresriera/RETO_5) · [Reto6](https://github.com/jf-floresriera/Reto6) · [Reto7](https://github.com/jf-floresriera/Reto7) · [Reto8](https://github.com/jf-floresriera/Reto8) · [Reto9](https://github.com/jf-floresriera/Reto9) |
+| 🌐 Web y Python | [agrocost](https://github.com/jf-floresriera/agrocost) · [3 (portal Flask)](https://github.com/jf-floresriera/3) · [gdp-dashboard](https://github.com/jf-floresriera/gdp-dashboard) · Python básico: [5](https://github.com/jf-floresriera/5-Variables-y-tipos-de-datos) · [6](https://github.com/jf-floresriera/6-_Estructuras-de-datos) · [7](https://github.com/jf-floresriera/7-Operaciones-con-Cadenas-de-Texto-Strings-) · [8](https://github.com/jf-floresriera/8-Bucles-y-Declaraciones-Condicionales) · [9](https://github.com/jf-floresriera/9-Funciones-y-Clases-El-camino-a-la-Modularizaci-n) · [10](https://github.com/jf-floresriera/10-Trabajando-con-Archivos) |
+
+</details>
+
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 🛠️ Stack tecnológico
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![Julia](https://img.shields.io/badge/Julia-9558B2?style=for-the-badge&logo=julia&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![QGIS](https://img.shields.io/badge/QGIS-589632?style=for-the-badge&logo=qgis&logoColor=white)
-![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-4285F4?style=for-the-badge&logo=googleearth&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+**Lenguajes**
 
-**Visión por computador:** YOLO (v8/v11/v26) · CNNs · Segmentación de instancias · Etiquetado de imágenes · Green AI (CodeCarbon)
-**Geoespacial:** QGIS · Google Earth Engine · Teledetección (Sentinel-2, LSP) · Modelado espacial
-**Agronomía:** Ciencia del suelo · Fitopatología · Fenología · Riego mecanizado · Poscosecha
+<img src="assets/skills-lang.svg" width="100%" alt="Python, Dart, Kotlin, Java, JavaScript, TypeScript, R, Julia, SQL, HTML5, CSS, Quarto"/>
+
+**IA y ciencia de datos**
+
+<img src="assets/skills-ai.svg" width="100%" alt="PyTorch, YOLO, Transformers, scikit-learn, OpenCV, pandas, NumPy, SciPy, Jupyter, Colab, Flask, Streamlit"/>
+
+**Geoespacial y teledetección**
+
+<img src="assets/skills-geo.svg" width="100%" alt="QGIS / PyQGIS, Earth Engine, GDAL · rasterio, PostGIS, ArcPy, OSM · Overpass, Leaflet"/>
+
+**Backend, móvil y DevOps**
+
+<img src="assets/skills-dev.svg" width="100%" alt="Flutter, Android, FastAPI, SQLAlchemy, Pydantic, Docker, MinIO · S3, DuckDB, Supabase, Firebase, SQLite, Cloudflare, GitHub Actions, k6, Git, Linux · WSL"/>
 
 </div>
 
----
+## 🧠 Destrezas extraídas de mi código
 
-## 📊 Estadísticas de GitHub
+Lo que sigue sale de revisar mis repositorios públicos y privados, no de una lista de deseos.
+
+<details open>
+<summary><b>🛰️ Teledetección y SIG</b></summary>
+
+- **Google Earth Engine** en JavaScript y Python (`ee`, `geemap`): Sentinel-2, MODIS, CHIRPS, AgERA5 e IMERG.
+- **Gaussian Process Regression** para recuperar LAI/variables biofísicas, rellenar huecos temporales y extraer fenología con doble logística (LSP).
+- **Radar**: generación de grafos XML para ESA SNAP (cadena TOPS, interferograma, coherencia, desenrollado), redes de pares **SBAS**, *phase linking*, búsqueda en ASF, CDSE y Planetary Computer; Sentinel-1, ALOS-2 y metadatos Umbra en S3.
+- **UAV multiespectral**: calibración radiométrica, grillas de parcelas, estadística zonal e ingesta de ortomosaicos y fotogrametría.
+- Raster y vector con **rasterio, GDAL, xarray/rioxarray, geopandas, shapely, pyproj, cartopy**; benchmarks equivalentes en **R** (`terra`, `stars`) y **Julia** (`ArchGDAL`, `Rasters.jl`).
+- **Plugins de QGIS** completos: *Processing provider*, diálogos, i18n e instalador de dependencias; automatización con **ArcPy**.
+
+</details>
+
+<details>
+<summary><b>🤖 IA, visión y modelos</b></summary>
+
+- **YOLOv11** (clasificación y segmentación) y CNNs con *transfer learning* (Xception, MobileNet, ResNet) para severidad de enfermedades; post-procesamiento con OpenCV y scikit-image.
+- **LLMs**: minería de corpus científico abierto, limpieza de PDF/HTML (PyMuPDF, trafilatura), detección de idioma, deduplicación MinHash, adaptación de dominio (DAPT) y ajuste fino SFT con **Transformers + PEFT + TRL**, **QLoRA** con bitsandbytes, evaluación por perplejidad y benchmarks, y cuantización **GGUF** para móviles.
+- Modelado tabular: **LASSO, Random Forest, XGBoost, PLS**; validación cruzada por grupos (`GroupKFold`, `LeaveOneGroupOut`); modelos mixtos con **statsmodels** para heredabilidad y G×E.
+- **GPBoost**: árboles + procesos gaussianos para predicción espacial con efectos aleatorios.
+
+</details>
+
+<details>
+<summary><b>⚙️ Backend y datos</b></summary>
+
+- APIs asíncronas con **FastAPI + SQLAlchemy 2 (async) + asyncpg**, esquemas **Pydantic**, autenticación JWT y bcrypt.
+- **PostGIS** con GeoAlchemy2 y migraciones versionadas con **Alembic**.
+- Almacenamiento de objetos **S3/MinIO**, rásters **COG** y teselas dinámicas con **TiTiler**; lectura por ventanas desde catálogos **STAC**.
+- Analítica columnar con **DuckDB + PyArrow**; datos climáticos de **ERA5** y **NASA POWER**.
+- Control de calidad de observaciones (válida / dudosa / descartada, nunca se borra) y motor de decisiones por reglas, trazable.
+- Pruebas automatizadas con **pytest** y **pytest-asyncio**.
+
+</details>
+
+<details>
+<summary><b>📱 Móvil</b></summary>
+
+- **Flutter offline-first**: Riverpod, base local Drift/SQLite, go_router, Dio/Retrofit, flutter_map, GPS, captura de foto y audio, localización (l10n), freezed y json_serializable.
+- **Android nativo** en Kotlin y Java: *Custom Views* con Canvas, sonidos, menús y diálogos, arquitectura **MVVM + Clean Architecture**, multijugador en tiempo real con **Firebase Realtime Database**, persistencia **SQLite**, mapas con **OSMDroid + Overpass API**.
+
+</details>
+
+<details>
+<summary><b>🔐 Seguridad, despliegue y DevOps</b></summary>
+
+- **Supabase**: PostgreSQL con *Row Level Security*, cifrado con `pgcrypto`, *Edge Functions* en Deno/TypeScript, verificación por código enviado al correo; sitio estático en **Cloudflare Pages**.
+- Pruebas de carga con **k6** (escenarios por etapas y umbrales de latencia p95).
+- **Docker Compose** multiservicio, Makefile, scripts Bash/PowerShell, **WSL2**, **GitHub Actions** para compilar APK.
+- Descargas robustas: rangos HTTP en paralelo, reintentos con espera exponencial, reanudación y verificación MD5.
+- Reportes reproducibles con **Quarto** (HTML/PDF) y documentación bilingüe.
+
+</details>
+
+<img src="assets/divider.svg" width="100%" alt=""/>
+
+## 📊 En números
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=jf-floresriera&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jf-floresriera&layout=compact&theme=tokyonight&hide_border=true" width="35%"/>
+<img src="assets/stats.svg" width="100%" alt="53 repositorios · 120k+ líneas de código · 3 plugins QGIS · 11 apps móviles · 12 lenguajes"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=jf-floresriera&theme=tokyonight&hide_border=true" width="60%"/>
+<img src="assets/languages.svg" width="100%" alt="Lenguajes: Python 55.2%, Dart 18.8%, HTML/CSS 9.7%, Kotlin/Java 6.5%, Quarto 4.0%, JavaScript/TS 3.2%, Shell 0.9%, R/Julia 0.9%, SQL 0.8%"/>
+
+<sub>Calculado sobre el código de mis 53 repositorios (públicos y privados), sin contar datos, archivos generados ni duplicados · octubre 2026</sub>
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%" alt=""/>
+
+## 💼 Experiencia
+
+| Rol | Dónde | Periodo |
+|---|---|---|
+| **Project Researcher** — Alianza UNAL – Purdue University | Bogotá, Colombia | Ene 2026 – actualidad |
+| **Research Intern** — Agrocomputation & Epidemiological Analysis Lab | Facultad de Ciencias Agrarias, UNAL | Jun 2025 – Ene 2026 |
+| **Teaching Assistant** — Ciencia del Suelo y Manejo Integrado de Enfermedades | UNAL, Bogotá | Durante el pregrado |
+
+**Logros clave**
+- **PowderyVision** (Flask) con CNNs (ResNet101, ConvNeXt, Xception) y YOLOv11 cls/seg — 99 % de precisión.
+- **XGBoost** para análisis espectral de calidad (98 % de precisión) y medición de huella de carbono con **CodeCarbon**.
+- Pipelines **PSPNet/ResNet34** sobre más de 140 000 imágenes de campo capturadas por robots Solinftec (alianza con Purdue).
+- Apps **R Shiny** y **Gradio** para monitoreo de campo; datasets **FAIR** publicados en Hugging Face.
 
 ## 🎓 Educación
 
-- **M.Sc. en Geomática** — Universidad Nacional de Colombia · Ene 2026 – Presente
-  Línea de investigación: desarrollo e implementación de tecnologías geoespaciales.
-- **B.Sc. en Ingeniería Agronómica** — Universidad Nacional de Colombia · Ago 2020 – Dic 2025
-  Top 4% nacional en pruebas SaberPro · Nota máxima en Trabajo de Grado (4.4/5).
+- **M.Sc. en Geomática** — Universidad Nacional de Colombia · Ene 2026 – presente
+- **B.Sc. en Ingeniería Agronómica** — Universidad Nacional de Colombia · Ago 2020 – Dic 2025 · Top 4 % nacional en Saber Pro · Trabajo de grado 4.4/5
 
----
-
-## 📜 Certificaciones seleccionadas
+<details>
+<summary><b>📜 Certificaciones seleccionadas</b></summary>
 
 - Python para Ciencia de Datos — Pontificia Universidad Católica de Chile (2025)
 - Intelligent Automation in Biological Systems — UNAL, 64 h (2024)
-- Extraction with Supercritical Fluids: Theory and Applications — UNAL, 64 h (2023)
 - Agricultural Soil Conservation — Ministerio de Agricultura / UPRA / Agronet (2024)
+- Extraction with Supercritical Fluids: Theory and Applications — UNAL, 64 h (2023)
 - Agricultural Production Systems and Sustainability — Universidad de Almería, España (2023)
-- Plant Nutrition and Fertigation — UNAL & Universidad de Almería (2022)
 - Mecanización agrícola (cosechadoras, fumigación, siembra, tractores) — Fundación Fomenta / AmCham (2023)
+- Plant Nutrition and Fertigation — UNAL & Universidad de Almería (2022)
 
----
+</details>
 
 ## 📫 Contacto
 
 <div align="center">
 
-📍 Bogotá, Colombia &nbsp;·&nbsp; 📞 +57  &nbsp;·&nbsp; ✉️ [jesusenriqueflores36@gmail.com](mailto:jfloresr@unal.edu.co)
+📍 Bogotá, Colombia &nbsp;·&nbsp; ✉️ [jesusenriqueflores36@gmail.com](mailto:jesusenriqueflores36@gmail.com) &nbsp;·&nbsp; 🏛️ [jfloresr@unal.edu.co](mailto:jfloresr@unal.edu.co)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/flores-riera/)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/jf-floresriera)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jf-floresriera)
+<a href="https://www.linkedin.com/in/flores-riera/"><img src="assets/badges/linkedin.svg" height="32" alt="LinkedIn"/></a>
+<a href="https://huggingface.co/jf-floresriera"><img src="assets/badges/huggingface.svg" height="32" alt="Hugging Face"/></a>
+<a href="https://orcid.org/0000-0002-8167-4212"><img src="assets/badges/orcid.svg" height="32" alt="ORCID"/></a>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
-</content>
+<img src="assets/footer.svg" width="100%" alt=""/>

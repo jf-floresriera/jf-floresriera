@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="32" viewBox="0 0 190 32" role="img" aria-label="Bogotá, Colombia"><title>Bogotá, Colombia</title><style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><rect width="190" height="32" rx="7" fill="#2E8B57"/>
+<rect width="190" height="32" rx="7" fill="url(#sh)"/>
+<defs><linearGradient id="sh" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset="1" stop-color="#000" stop-opacity=".12"/></linearGradient></defs>
+<path transform="translate(15 6)" fill="#fff" d="M8 0C3.6 0 0 3.5 0 7.9 0 13.6 8 20 8 20s8-6.4 8-12.1C16 3.5 12.4 0 8 0zm0 11a3.2 3.2 0 1 1 0-6.4A3.2 3.2 0 0 1 8 11z"/>
+<text x="40" y="21" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing=".6" fill="#fff" textLength="136" lengthAdjust="spacingAndGlyphs">BOGOTÁ, COLOMBIA</text></svg>
